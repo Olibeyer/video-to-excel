@@ -4,7 +4,7 @@ import os
 if __name__ == "__main__":
     name = "Bad_Apple"
     video = 'video\Bad_Apple.mp4'
-    result_path = rf"C:\Users\OliverBLauritsen\Documents\personal\ExcelRenderer\result\{name}"
+    result_path = rf".\result\{name}"
     renderer = ExcelRenderer(name=name, video=video)
     
     #renderer.load()
